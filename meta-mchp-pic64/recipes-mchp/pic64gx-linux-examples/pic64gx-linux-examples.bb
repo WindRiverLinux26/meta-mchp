@@ -52,3 +52,5 @@ FILES:${PN}-amp += "/opt/microchip/amp"
 FILES:${PN}-dt-overlays = "/opt/microchip/dt-overlays/"
 
 ALLOW_EMPTY:${PN} = "1"
+
+COMPATIBLE_MACHINE = "pic64gx-curiosity-kit"
